@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Keity Moscoso Miranda">
+  <meta name="description" content="Tarea HTML5">
+  <meta name="keywords" content="HTML5, etiquetas, UTN, tarea">
+  <title>Tarea HTML5 - Keity Moscoso Miranda</title>
+  <link rel="stylesheet" href="styles.css">
+  <base href="https://www.utn.ac.cr/">
+</head>
+<body>
+  <h1>Tarea de HTML5</h1>
+  <h2>Nombre: Keity Moscoso Miranda</h2>
+  <img src="imagenes/keity-avatar.png" alt="Foto de Keity" width="200">
+
+  <!-- Estructura de Sección -->
+  <section>
+    <hgroup>
+      <h1>Encabezado Principal</h1>
+      <h2>Subtítulo del Encabezado</h2>
+    </hgroup>
+    <address>Correo: keitymosc@gmail.com</address>
+    <div>Esta es una división genérica.</div>
+    <iframe src="https://www.youtube.com/embed/_QGIzmtIr3E" width="300" height="200"></iframe>
+  </section>
+
+  <!-- Grupos: Listas y Figuras -->
+  <section>
+    <h3>Listas</h3>
+    <ul><li>Elemento sin orden</li></ul>
+    <ol><li>Elemento con orden</li></ol>
+    <dl>
+      <dt>HTML</dt>
+      <dd>Lenguaje de marcas</dd>
+    </dl>
+    <figure>
+      <img src="imagenes/keity-avatar.png" alt="Avatar">
+      <figcaption>Avatar de Keity</figcaption>
+    </figure>
+    <details>
+      <summary>Haz clic para ver más</summary>
+      Información oculta aquí.
+    </details>
+    <dialog open>Este es un cuadro de diálogo abierto.</dialog>
+  </section>
+
+  <!-- Texto -->
+  <section>
+    <h3>Texto</h3>
+    <p>Un párrafo con un <br> salto de línea.</p>
+    <pre>Texto    con    espacios    preformateado</pre>
+    <blockquote>Esto es una cita larga.</blockquote>
+    <q>Esto es una cita corta.</q>
+    <cite>El Principito</cite>
+    <abbr title="HyperText Markup Language">HTML</abbr>
+    <dfn title="Término clave">Definición</dfn>
+    <code>console.log("Hola")</code>
+    <kbd>Ctrl + S</kbd>
+    <b>Texto en negrita</b>,
+    <strong>Texto importante</strong>,
+    <i>Cursiva</i>,
+    <em>Énfasis</em>,
+    <mark>Texto resaltado</mark>,
+    <small>Texto pequeño</small>,
+    <del>Texto eliminado</del>,
+    <ins>Texto insertado</ins>,
+    <sub>subíndice</sub>,
+    <sup>superíndice</sup>,
+    <time datetime="2025-05-23">23 de mayo 2025</time>,
+    <data value="12345">ID del producto</data>,
+    <span style="color:blue;">Texto en span</span>
+  </section>
+
+  <!-- Enlaces -->
+  <section>
+    <h3>Enlaces</h3>
+    <a href="https://utn.ac.cr" target="_blank">Ir a UTN</a>
+ <img src="imagenes/keity-avatar.png" alt="Mapa de imagen" usemap="#miMapa">
+    <map name="miMapa">
+      <area shape="rect" coords="0,0,100,100" href="https://www.utn.ac.cr" alt="Área de UTN">
+    </map>
+  </section>
+
+  <!-- Imágenes -->
+  <section>
+    <h3>Imágenes</h3>
+  <picture>
+  <source media="(min-width: 650px)" srcset="imagenes/keity-avatar.png">
+  <img src="imagenes/keity-avatar.png" alt="Responsive Image" width="200">
+  </picture>
+    <canvas id="miCanvas" width="100" height="100" style="border:1px solid black;"></canvas>
+    <svg width="100" height="100">
+      <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+  </section>
+
+  <!-- Multimedia -->
+  <section>
+    <h3>Multimedia</h3>
+    <audio controls>
+      <source src="sample.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio.
+    </audio>
+    <video width="320" height="240" controls>
+      <source src="sample.mp4" type="video/mp4">
+      Tu navegador no soporta video.
+    </video>
+    <track kind="subtitles" src="subtitulos.vtt" srclang="es" label="Español">
+  </section>
+
+  <footer>
+    <p>© 2025 Keity Moscoso Miranda</p>
+  </footer>
+</body>
+</html>
